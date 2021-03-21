@@ -94,4 +94,4 @@ data_select.on_change('value', select_data)
 
 # using curdoc to add plot and Select widget to the document for interactive plotting session
 curdoc().add_root(row(plot_1, data_select))
-curdoc().title = 'dva_ex1'
+curdoc().title = 'Taxonomic Class'
